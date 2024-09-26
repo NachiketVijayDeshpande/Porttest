@@ -33,7 +33,7 @@ export default function firstpage(){
             <a  href="https://docs.google.com/document/d/1F3yk_YTxSyKceXE5eJCChd3kLvXOraq1/edit?usp=sharing&ouid=104586618153199560889&rtpof=true&sd=true"  target="_blank" className="top resume">Resume</a>
         </div>
         <div>
-            <img className="logoimage" src="/images/nlogo.png"/>
+            <img className="logoimage" src="https://github.com/NachiketVijayDeshpande/Porttest/blob/main/images/nlogo.png"/>
         </div>      
         {/* {!isScrolled &&<button className="Scroll btn41-43" onClick={handleScroll}>Projects<br/><i className="fa-solid fa-arrow-down-long"></i></button>} */}
         </div>
