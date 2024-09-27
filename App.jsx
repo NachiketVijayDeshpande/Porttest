@@ -22,7 +22,6 @@ export default function App() {
    
   return (
     <div className="main" style={{ minHeight: "200vh" }}>
-        <img src="https://github.com/NachiketVijayDeshpande/Porttest/blob/e09018ab4eafa9596e9655cf842fca8e96ca3b1e/images/nlogo.png"></img>
         <TopButton toggleDetail={toggleDetail}  setToggleOf={setToggleOf} />
        <Firstpage/>
        <Social/>
