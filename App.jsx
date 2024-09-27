@@ -6,7 +6,7 @@ import Firstpage from "/FirstPage.jsx"
 import Social from "/Socialmedia.jsx"
 import Form from "/Form.jsx"
 import Footer from "/Footer.jsx"
-import ContactForm from "/Form2.jsx"
+
 
 export default function App() {
     const[showdetail,setShowdetail] =React.useState(false)
@@ -22,6 +22,7 @@ export default function App() {
    
   return (
     <div className="main" style={{ minHeight: "200vh" }}>
+        <img src="https://github.com/NachiketVijayDeshpande/Porttest/blob/e09018ab4eafa9596e9655cf842fca8e96ca3b1e/images/nlogo.png"></img>
         <TopButton toggleDetail={toggleDetail}  setToggleOf={setToggleOf} />
        <Firstpage/>
        <Social/>
