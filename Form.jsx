@@ -1,5 +1,5 @@
 import React from "react";
-
+import FormImg from "images/image.png"
 const Form = React.forwardRef((props, ref) => {
     
     
@@ -11,7 +11,7 @@ const Form = React.forwardRef((props, ref) => {
       <div className="form-page">
         {/* Introduction section */}
         <section className="intro">
-         <img className="formimg" src="images/image.png"/>
+         <img className="formimg" src={FormImg}/>
           </section>
 
         {/* Main content */}
